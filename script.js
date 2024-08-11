@@ -202,6 +202,27 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+document.addEventListener("mousemove", function(dets){
+    gsap.to("#Flag",{
+        x:dets.x,
+        y:dets.y
+    })
+})
+
+
+document.querySelector("#hero3").addEventListener("mouseenter",
+    function(){
+        gsap.to("#Flag",{
+            opacity:1
+        });
+    });
+
+    document.querySelector("#hero3").addEventListener("mouseleave",
+        function(){
+            gsap.to("#Flag",{
+                opacity:0
+            });
+        });  
 
 
 
