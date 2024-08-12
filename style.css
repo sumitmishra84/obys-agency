@@ -762,8 +762,8 @@ body{
     width: 100%;
     background-color: #fff;
     margin: 2vw 0;
-    margin-bottom: 20px;
-    text-underline-offset: -2px; 
+    margin-bottom: -20px;
+    text-underline-offset: -7px; 
 }
 
 #footer-div{
@@ -798,7 +798,9 @@ body{
 
 #footer>h5{
     font-weight:500;
-    font-size: 1vw;
+    font-size: 1.2vw;
+    margin-bottom: 50vw;
+    margin: 20px 0 ;
 }
 
 ._convas_container{
