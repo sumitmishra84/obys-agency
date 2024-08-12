@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     h5timer.innerHTML = grow;
                     clearInterval(interval);
                 }
-            }, 33);
+            }, 28);
         },
     });
     tl.to('.line h2', {
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
     tl.to("#loader", {
         opacity: 0,
         duration: 0.2,
-        delay: 0,
+        delay: 2.6,
     });
 
     tl.from("#page1", {
